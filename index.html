@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krishna Wankhade — Student Innovator</title>
+<style>
+:root {
+  --site-primary: #34483D;
+  --site-on-primary: #FFFFFF;
+  --site-secondary: #E8EDE5;
+  --site-on-secondary: #343630;
+  --site-background: #F4F1E8;
+  --site-on-background: #343630;
+  --site-card: #FFFFFF;
+  --site-border: #E2DED3;
+  --site-accent: #A58A61;
+  --site-font-body: Arial, "Segoe UI", sans-serif;
+  --site-font-heading: Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--site-background); }
+body {
+  margin: 0;
+  font-family: var(--site-font-body);
+  background: var(--site-background);
+  color: var(--site-on-background);
+  -webkit-font-smoothing: antialiased;
+}
+.root {
+  min-height: 100vh;
+  background: var(--site-background);
+  color: var(--site-on-background);
+}
+header {
+  background: var(--site-primary);
+  color: var(--site-on-primary);
+  padding: 42px max(24px, calc((100vw - 794px)/2)) 42px;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .17em;
+  font-size: .68rem;
+  color: #D8DFD8;
+}
+h1 {
+  font-family: var(--site-font-heading);
+  font-size: 2.65rem;
+  letter-spacing: -.035em;
+  font-weight: 700;
+  margin: 13px 0 8px;
+  color: #FFFFFF;
+}
+.subtitle {
+  font-weight: 600;
+  line-height: 1.5;
+  color: #E8EDE5;
+}
+.contact {
+  margin-top: 22px;
+  line-height: 1.9;
+  font-size: .88rem;
+  color: #FFFFFF;
+}
+main {
+  max-width: 842px;
+  margin: auto;
+  padding: 31px 24px 64px;
+}
+section {
+  background: var(--site-card);
+  border: 1px solid var(--site-border);
+  border-radius: 15px;
+  padding: 23px 25px;
+  margin: 0 0 16px;
+  box-shadow: 0 2px 8px rgba(52, 54, 48, .035);
+}
+.profile-section {
+  background: #EEF2EA;
+  border: 1px solid #D7E0D3;
+  border-left: 5px solid #526B59;
+  padding: 26px 28px;
+  box-shadow: 0 4px 13px rgba(52, 72, 61, .07);
+}
+.profile-section h2 {
+  color: #34483D;
+  margin-bottom: 12px;
+}
+.profile-section p {
+  font-size: .97rem;
+  line-height: 1.8;
+  margin: 0;
+  color: #303A32;
+}
+h2 {
+  color: #526B59;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  margin: 0 0 15px;
+}
+h3 {
+  margin: 18px 0 5px;
+  font-size: 1rem;
+  letter-spacing: -.01em;
+  color: #34483D;
+}
+p, li {
+  line-height: 1.7;
+  color: #343630;
+  font-size: .91rem;
+}
+ul { padding-left: 17px; margin: 9px 0; }
+li { padding-left: 3px; margin: 3px 0; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag {
+  background: #EEF1EA;
+  color: #405345;
+  padding: 7px 11px;
+  border: 1px solid #DCE4D9;
+  border-radius: 8px;
+  font-size: .82rem;
+}
+.small {
+  font-size: .84rem;
+  color: #77766D;
+}
+footer {
+  text-align: center;
+  padding: 22px;
+  font-size: .82rem;
+  color: #77766D;
+}
+@media (max-width: 600px) {
+  header { padding: 38px 23px 34px; }
+  h1 { font-size: 2.2rem; }
+  main { padding: 20px 14px 40px; }
+  section { padding: 19px; border-radius: 13px; }
+  .profile-section { padding: 22px 20px; }
+}
+</style>
+</head>
+<body>
+<div class="root">
+<header>
+  <div class="eyebrow">Student profile · Class 9</div>
+  <h1>Krishna Wankhade</h1>
+  <div class="subtitle">Student Innovator · Aspiring Engineer · Entrepreneurship Enthusiast</div>
+  <div class="contact">India<br>Email: wankhadekrishna057@gmail.com</div>
+</header>
+<main>
+<section class="profile-section">
+<h2>Profile</h2>
+<p>A Class 9 student interested in engineering, technology, entrepreneurship and real-world problem-solving. Experienced in developing electronics prototypes, integrating sensors, working with embedded systems and creating software visualisations. Interested in mentorship, supervised projects and practical exposure.</p>
+</section>
+<section>
+<h2>Featured Engineering Projects</h2>
+<h3>01 · CubeSat Telemetry &amp; Visualisation Prototype</h3>
+<p class="small">Space Technology · Embedded Systems · Electronics</p>
+<ul>
+<li>Designed and assembled a physical CubeSat-inspired prototype.</li>
+<li>Developed an ESP32-based telemetry system integrating a BME280 environmental sensor, MPU6500 motion sensor, QMC5883L magnetometer and NEO-6M GPS module.</li>
+<li>Implemented sensor-data collection and Wi-Fi-based telemetry communication.</li>
+<li>Developed a Processing-based 3D dashboard to visualise telemetry and orientation.</li>
+<li>Troubleshot sensor identification, I²C communication, GPS reception and software integration challenges.</li>
+<li>Completed the physical prototype and demonstration.</li>
+</ul>
+<h3>02 · Automatic Waste Segregation System</h3>
+<p class="small">Robotics · Automation · Environmental Innovation</p>
+<ul>
+<li>Developed an Arduino-based automatic wet and dry waste segregation prototype.</li>
+<li>Integrated moisture, infrared and ultrasonic sensors with servo-based mechanisms.</li>
+<li>Presented the project at a school science exhibition; won and advanced to the second level.</li>
+</ul>
+</section>
+<section>
+<h2>Innovation &amp; Product Concepts</h2>
+<ul>
+<li><b>RescueReady:</b> Offline-first emergency assistance application concept.</li>
+<li><b>SkyClean:</b> Pollution-aware navigation application concept.</li>
+<li><b>Future You:</b> AI-based concept exploring how present habits and decisions can influence possible future outcomes.</li>
+<li><b>Tourist Safety Platform:</b> Website concept for communicating local scam warnings and tourist advisories.</li>
+</ul>
+<p class="small">These are concept-stage ideas, not completed products.</p>
+</section>
+<section>
+<h2>Leadership &amp; Extracurricular Activities</h2>
+<ul>
+<li><b>U-15 Football Team Captain</b> — Demonstrated leadership, teamwork, discipline and decision-making on the field.</li>
+<li><b>Model United Nations (MUN) Delegate</b> — Represented Egypt in the United Nations Security Council, developing skills in research, diplomacy, negotiation and public speaking.</li>
+<li><b>Science Exhibition Participant</b> — Presented engineering projects at school-level science exhibitions.</li>
+<li><b>Public Speaking &amp; Debate</b> — Interested in communication, critical thinking and collaborative problem-solving.</li>
+</ul>
+</section>
+<section>
+<h2>Technical Interests</h2>
+<div class="tags">
+<span class="tag">Arduino &amp; ESP32</span><span class="tag">Embedded Systems</span><span class="tag">Sensor Integration</span><span class="tag">Electronics Prototyping</span><span class="tag">Wi-Fi Telemetry</span><span class="tag">JSON Communication</span><span class="tag">Processing 3D Visualisation</span><span class="tag">Hardware Debugging</span><span class="tag">Product Design</span>
+</div>
+</section>
+<section>
+<h2>Areas of Interest</h2>
+<div class="tags">
+<span class="tag">Aerospace Technology</span><span class="tag">Robotics</span><span class="tag">Artificial Intelligence</span><span class="tag">Entrepreneurship</span><span class="tag">Product Development</span><span class="tag">Social Innovation</span>
+</div>
+</section>
+<section>
+<h2>Current Objective</h2>
+<p>Seeking mentorship, supervised project-based learning and exposure to engineering and startup ecosystems to develop practical technical and entrepreneurial skills.</p>
+</section>
+</main>
+<footer>Krishna Wankhade · Student Innovator</footer>
+</div>
+</body>
+</html>
